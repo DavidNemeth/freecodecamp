@@ -1,0 +1,12 @@
+function truncate(str, num) {
+  // Clear out that junk in your trunk
+  if (str.length > num) {    
+    str = str.replace(str.substring(num-3),'...');
+    return str;
+  }
+  else {
+    return str;
+  }
+}
+
+truncate('A-tisket a-tasket A green and yellow basket', 11);
