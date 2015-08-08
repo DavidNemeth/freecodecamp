@@ -1,0 +1,15 @@
+//Remove all falsey values from an array.
+function bouncer(arr) {
+  // Don't show a false ID to this bouncer.
+  arr = arr.filter(function (val){
+    if (!val){
+      return false;
+    }        
+    else {
+      return arr;
+    }
+                   });
+  return arr;
+}
+
+bouncer([7, 'ate', '', false, 9]);
