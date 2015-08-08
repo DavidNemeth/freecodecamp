@@ -1,0 +1,21 @@
+//Return true if
+//the string in the first element of the array contains all of the letters of the string in the second element of the array.
+function mutation(arr) {
+  arr[0] = arr[0].toLowerCase();
+  arr[1] = arr[1].toLowerCase();
+  var ret = true;
+  var biggest = "";
+  var smallest = "";
+  if (arr[0].length > arr[1].length){
+    biggest = arr[0];
+    smallest = arr[1];
+  }
+  for (var i = 0; i < smallest.length; i++) {
+    if (biggest.indexOf(smallest[i]) === -1) {
+      ret = false;
+    }    
+  }
+  return ret;
+}
+
+mutation(['hello', 'hey']);
