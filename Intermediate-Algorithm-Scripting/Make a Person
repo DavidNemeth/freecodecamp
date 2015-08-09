@@ -5,6 +5,8 @@
 
 //These methods must be the only available means for interacting with the object.
 
+*----------------------------------------------------------------------------------------------------------------------------*
+
 var Person = function(firstAndLast) {
   var name=firstAndLast.split(" ");
   var first_name=name[0];
