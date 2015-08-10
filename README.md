@@ -1,2 +1,2 @@
 # freecodecamp
-javascript excersises.
+javascript exercises.
