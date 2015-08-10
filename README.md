@@ -1,2 +1,3 @@
 # freecodecamp
-javascript exercises.
+Freecodecamp bonefire solutions.
+#javascript
