@@ -1,0 +1,13 @@
+//Check if a value is classified as a boolean primitive. Return true or false.
+function boo(bool) {
+    if(bool === true) {
+        bool = true;
+    } else if (bool === false) {
+        bool = true;
+    } else {
+        bool = false;
+    }
+    return bool;
+}
+
+boo(null);
